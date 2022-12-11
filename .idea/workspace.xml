@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ef3ca377-e4ac-41c4-be32-6a3413d3d67e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/flutter_utils.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/extension/extension.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/extension/iterable_extension.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/extension/riverpod_extension.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/extension/string_extension.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/hook/use_on_connection_restored.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/hook/use_post_frame_callback.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/state_mixins.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/widget/_animated.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/widget/_consts.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/widget/_flex_widgets.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/widget/_paddings.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/widget/_sized_boxes.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/widget/_widget_extension.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/widget/basic.dart" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectId" id="2ImtAxPud2jV6fghS97SubTRjBn" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
+    <property name="cidr.known.project.marker" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/src" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\MSI\AndroidStudioProjects\projects\flutter_utils\lib\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\MSI\AndroidStudioProjects\projects\flutter_utils\lib\src\widget" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+</project>
