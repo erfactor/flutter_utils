@@ -51,6 +51,13 @@
             </list>
           </value>
         </entry>
+        <entry key="flutter_lints">
+          <value>
+            <list>
+              <option value="$PROJECT_DIR$/../../../../../src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_lints-2.0.1/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="flutter_riverpod">
           <value>
             <list>
@@ -62,6 +69,13 @@
           <value>
             <list>
               <option value="$PROJECT_DIR$/../../../../../src/flutter/.pub-cache/hosted/pub.dartlang.org/hooks_riverpod-2.1.1/lib" />
+            </list>
+          </value>
+        </entry>
+        <entry key="lints">
+          <value>
+            <list>
+              <option value="$PROJECT_DIR$/../../../../../src/flutter/.pub-cache/hosted/pub.dartlang.org/lints-2.0.1/lib" />
             </list>
           </value>
         </entry>
@@ -144,8 +158,10 @@
       <root url="file://$PROJECT_DIR$/../../../../../src/flutter/.pub-cache/hosted/pub.dartlang.org/crypto-3.0.2/lib" />
       <root url="file://$PROJECT_DIR$/../../../../../src/flutter/.pub-cache/hosted/pub.dartlang.org/dartx-1.1.0/lib" />
       <root url="file://$PROJECT_DIR$/../../../../../src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_hooks-0.18.5+1/lib" />
+      <root url="file://$PROJECT_DIR$/../../../../../src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_lints-2.0.1/lib" />
       <root url="file://$PROJECT_DIR$/../../../../../src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_riverpod-2.1.1/lib" />
       <root url="file://$PROJECT_DIR$/../../../../../src/flutter/.pub-cache/hosted/pub.dartlang.org/hooks_riverpod-2.1.1/lib" />
+      <root url="file://$PROJECT_DIR$/../../../../../src/flutter/.pub-cache/hosted/pub.dartlang.org/lints-2.0.1/lib" />
       <root url="file://$PROJECT_DIR$/../../../../../src/flutter/.pub-cache/hosted/pub.dartlang.org/material_color_utilities-0.1.5/lib" />
       <root url="file://$PROJECT_DIR$/../../../../../src/flutter/.pub-cache/hosted/pub.dartlang.org/meta-1.8.0/lib" />
       <root url="file://$PROJECT_DIR$/../../../../../src/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.8.3/lib" />
