@@ -77,8 +77,6 @@ extension PaddingExtension on Widget {
   Widget get padVertical16 => padVertical(16);
   Widget get padVertical20 => padVertical(20);
   Widget get padVertical24 => padVertical(24);
-  Widget get padVertical48 => padVertical(48);
-  Widget get padVertical64 => padVertical(64);
 
   Widget padTop(double value) => PadTop(value: value, child: this);
   Widget get padTop1 => padTop(1);
