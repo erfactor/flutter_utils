@@ -1,37 +1,116 @@
+// ignore_for_file: prefer-single-widget-per-file, prefer-match-file-name, ban-name
 import 'package:flutter/material.dart';
 
-class ColumnMin extends Column {
-  ColumnMin({
-    MainAxisAlignment main = MainAxisAlignment.start,
-    CrossAxisAlignment cross = CrossAxisAlignment.center,
+class RowMax extends StatelessWidget {
+  const RowMax({
+    required this.children,
+    this.main = MainAxisAlignment.start,
+    this.cross = CrossAxisAlignment.center,
+    this.padVertical = 0,
+    this.padHorizontal = 0,
     super.key,
-    required super.children,
-  }) : super(mainAxisSize: MainAxisSize.min, mainAxisAlignment: main, crossAxisAlignment: cross);
+  });
+  final List<Widget> children;
+  final MainAxisAlignment main;
+  final CrossAxisAlignment cross;
+  final double padVertical;
+  final double padHorizontal;
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: EdgeInsets.symmetric(vertical: padVertical, horizontal: padHorizontal),
+      child: Row(
+        mainAxisAlignment: main,
+        crossAxisAlignment: cross,
+        children: children,
+      ),
+    );
+  }
 }
 
-class ColumnMax extends Column {
-  ColumnMax({
-    MainAxisAlignment main = MainAxisAlignment.start,
-    CrossAxisAlignment cross = CrossAxisAlignment.center,
+class RowMin extends StatelessWidget {
+  const RowMin({
+    required this.children,
+    this.main = MainAxisAlignment.start,
+    this.cross = CrossAxisAlignment.center,
+    this.padVertical = 0,
+    this.padHorizontal = 0,
     super.key,
-    required super.children,
-  }) : super(mainAxisSize: MainAxisSize.max, mainAxisAlignment: main, crossAxisAlignment: cross);
+  });
+  final List<Widget> children;
+  final MainAxisAlignment main;
+  final CrossAxisAlignment cross;
+  final double padVertical;
+  final double padHorizontal;
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: EdgeInsets.symmetric(vertical: padVertical, horizontal: padHorizontal),
+      child: Row(
+        mainAxisSize: MainAxisSize.min,
+        mainAxisAlignment: main,
+        crossAxisAlignment: cross,
+        children: children,
+      ),
+    );
+  }
 }
 
-class RowMin extends Row {
-  RowMin({
-    MainAxisAlignment main = MainAxisAlignment.start,
-    CrossAxisAlignment cross = CrossAxisAlignment.center,
+class ColumnMax extends StatelessWidget {
+  const ColumnMax({
+    required this.children,
+    this.main = MainAxisAlignment.start,
+    this.cross = CrossAxisAlignment.center,
+    this.padVertical = 0,
+    this.padHorizontal = 0,
     super.key,
-    required super.children,
-  }) : super(mainAxisSize: MainAxisSize.min, mainAxisAlignment: main, crossAxisAlignment: cross);
+  });
+  final List<Widget> children;
+  final MainAxisAlignment main;
+  final CrossAxisAlignment cross;
+  final double padVertical;
+  final double padHorizontal;
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: EdgeInsets.symmetric(vertical: padVertical, horizontal: padHorizontal),
+      child: Column(
+        mainAxisAlignment: main,
+        crossAxisAlignment: cross,
+        children: children,
+      ),
+    );
+  }
 }
 
-class RowMax extends Row {
-  RowMax({
-    MainAxisAlignment main = MainAxisAlignment.start,
-    CrossAxisAlignment cross = CrossAxisAlignment.center,
+class ColumnMin extends StatelessWidget {
+  const ColumnMin({
+    required this.children,
+    this.main = MainAxisAlignment.start,
+    this.cross = CrossAxisAlignment.center,
+    this.padVertical = 0,
+    this.padHorizontal = 0,
     super.key,
-    required super.children,
-  }) : super(mainAxisSize: MainAxisSize.max, mainAxisAlignment: main, crossAxisAlignment: cross);
+  });
+  final List<Widget> children;
+  final MainAxisAlignment main;
+  final CrossAxisAlignment cross;
+  final double padVertical;
+  final double padHorizontal;
+
+  @override
+  Widget build(BuildContext context) {
+    return Padding(
+      padding: EdgeInsets.symmetric(vertical: padVertical, horizontal: padHorizontal),
+      child: Column(
+        mainAxisSize: MainAxisSize.min,
+        mainAxisAlignment: main,
+        crossAxisAlignment: cross,
+        children: children,
+      ),
+    );
+  }
 }
