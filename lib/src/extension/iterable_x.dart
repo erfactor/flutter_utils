@@ -1,3 +1,4 @@
+// ignore_for_file: ban-name
 extension IterableX<T> on Iterable<T> {
   List<E> mapList<E>(E Function(T e) f) => map(f).toList();
 
@@ -24,4 +25,12 @@ extension IterableX<T> on Iterable<T> {
   }
 
   Map<K, V> groupMap<K, V>(K Function(T item) by, V Function(List<T> item) as) => group(by).map((k, v) => MapEntry(k, as(v)));
+}
+
+extension IterableOfIterableX<T> on Iterable<Iterable<T>> {
+  List<T> get expandList => expand((e) => e).toList();
+}
+
+extension IterableWithNullsX<E> on Iterable<E?> {
+  List<E> get withoutNulls => where((e) => e != null).cast<E>().toList();
 }

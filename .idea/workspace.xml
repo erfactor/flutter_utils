@@ -4,7 +4,52 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ef3ca377-e4ac-41c4-be32-6a3413d3d67e" name="Changes" comment="" />
+    <list default="true" id="ef3ca377-e4ac-41c4-be32-6a3413d3d67e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/src/common.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/extension/widget_ref_x.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/hook/use_effect_once.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/hook/use_is_top_route.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/hook/use_on_app_lifecycle_resume.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/hook/use_route_aware.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/model/action_value.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/model/action_value.freezed.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/provider/action_notifier.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/provider/async_value_map_x.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/provider/input_action_notifier.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/provider/ref_x.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/provider/string_x.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/util/measure_execution_time.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/widget/animated_visibility.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/widget/consts.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/widget/d_animated_size.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/widget/d_animated_switcher.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/widget/form_builder.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/widget/gap.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/widget/intrinsic_column.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/widget/keep_widget_alive.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/widget/unfocus.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/widget/util/utf16_length_limiting_text_input_formatter.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/widget/widget_list_x.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/flutter_utils.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/provider.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/extension/extension.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/extension/iterable_x.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/extension/iterable_x.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/extension/object_x.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/extension/object_x.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/extension/riverpod_x.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/extension/riverpod_x.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/extension/string_x.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/extension/string_x.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/extension/value_notifier_x.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/extension/value_notifier_x.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/hook/hook.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/hook/use_listener.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/hook/use_listener.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/hook/use_post_frame_callback.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/hook/use_post_frame_callback.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/widget/_padding.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/widget/padding.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/widget/animated.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/widget/center_symmetric.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/widget/center_symmetric.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/widget/flex_widgets.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/widget/flex_widgets.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/widget/sized_boxes.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/widget/widget.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/widget/widget_x.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/widget/widget_x.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,9 +82,9 @@
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2ImtAxPud2jV6fghS97SubTRjBn" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -62,16 +107,17 @@
     "git-widget-placeholder": "master",
     "io.flutter.project.isFirstOpen": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/rafal/FlutterProjects/projects/flutter_utils/lib/src/extension",
+    "last_opened_file_path": "C:/Users/rafal/FlutterProjects/projects/flutter_utils/lib/src/widget",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rafal\FlutterProjects\projects\flutter_utils\lib\src\widget" />
+      <recent name="C:\Users\rafal\FlutterProjects\projects\flutter_utils\lib" />
+      <recent name="C:\Users\rafal\FlutterProjects\projects\flutter_utils\lib\src" />
+      <recent name="C:\Users\rafal\FlutterProjects\projects\flutter_utils\lib\src\hook" />
       <recent name="C:\Users\rafal\FlutterProjects\projects\flutter_utils\lib\src\extension" />
-      <recent name="C:\Users\MSI\AndroidStudioProjects\projects\flutter_utils\lib\src\extension" />
-      <recent name="C:\Users\MSI\AndroidStudioProjects\projects\flutter_utils\lib\src\hook" />
-      <recent name="C:\Users\MSI\AndroidStudioProjects\projects\flutter_utils\lib\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\MSI\AndroidStudioProjects\projects\flutter_utils\lib\src\widget" />

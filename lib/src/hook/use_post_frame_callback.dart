@@ -1,20 +1,16 @@
-import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
 
-void usePostFrameCallback(VoidCallback callback) {
-  return use(_PostFrameCallbackHook(callback));
+void usePostFrameCallback(VoidCallback callback, [List<Object?> keys = const []]) {
+  useEffect(
+    () {
+      addPostFrameCallback(callback);
+      return null;
+    },
+    keys,
+  );
 }
 
-class _PostFrameCallbackHook extends Hook<void> {
-  const _PostFrameCallbackHook(this.callback);
-  final VoidCallback callback;
-  @override
-  createState() => _PostFrameCallbackHookState();
-}
-
-class _PostFrameCallbackHookState extends HookState<void, _PostFrameCallbackHook> {
-  @override
-  void initHook() => WidgetsBinding.instance.addPostFrameCallback((_) => hook.callback());
-  @override
-  void build(BuildContext context) {}
+void addPostFrameCallback(VoidCallback callback) {
+  WidgetsBinding.instance.addPostFrameCallback((_) => callback());
 }

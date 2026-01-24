@@ -1,6 +1,5 @@
 // ignore_for_file: prefer-single-widget-per-file, prefer-match-file-name, ban-name
-
-import '../../flutter_utils.dart';
+import '../../widget.dart';
 
 class CenterHorizontal extends StatelessWidget {
   const CenterHorizontal({required this.child});

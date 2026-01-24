@@ -1,5 +1,6 @@
-import 'package:flutter/foundation.dart';
+import 'package:flutter/material.dart';
 
-extension ValueNotifierX on ValueNotifier<bool> {
-  void toggle() => value = !value;
+extension ValueNotifierX<T> on ValueNotifier<T> {
+  // ignore: use_setters_to_change_properties, invalid_use_of_protected_member, auxiliary function
+  void set(T value) => this.value = value;
 }
