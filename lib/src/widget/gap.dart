@@ -17,7 +17,7 @@ const Widget Gap44 = Gap(44);
 const Widget Gap48 = Gap(48);
 
 class CustomGap extends StatelessWidget {
-  const CustomGap(this.value);
+  const CustomGap(this.value, {super.key});
   final double value;
 
   @override
